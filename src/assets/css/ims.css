@@ -1,0 +1,70 @@
+#login-form {
+    margin: 10rem auto;
+    width: 25%
+}
+
+#login-form h1 {
+    color: #409EFF;
+    text-align: center
+}
+
+#login-form .el-button {
+    width: 100%
+}
+
+#nav {
+    background-color: #409EFF;
+    border-radius: 1rem 1rem 0 0;
+    color: #303133
+}
+
+#nav > div:first-child {
+    float: left;
+    font-size: 1.5rem;
+    line-height: 60px
+}
+
+#nav > div:last-child {
+    float: right;
+    line-height: 60px;
+    text-align: right
+}
+
+#nav i {
+    cursor: pointer;
+    font-size: 1rem
+}
+
+#menu {
+    border-right: 1px solid #E6E6E6;
+    float: left;
+    min-height: calc(100vh - 60px - 8 * 2px)
+}
+
+.el-menu {
+    border-right: none
+}
+
+.el-main {
+    float: right;
+    width: calc(100% - 300px)
+}
+
+#search-form {
+    float: left;
+    margin: 10px 0 0 10px
+}
+
+#add-button {
+    float: right;
+    margin: 10px 10px 0 0
+}
+
+#pagination {
+    margin-top: 5px
+}
+
+/*修改<textarea>字体，否则与<input>字体不一致。*/
+.el-dialog textarea {
+    font-family: Arial
+}
